@@ -1,0 +1,96 @@
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    margin: 0;
+   
+    
+}
+
+
+h1{
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+    
+}
+
+h2{
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+}
+
+p{
+    line-height: 2;
+    text-align: auto;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;    
+    display: ;
+}
+
+
+
+.main-container{
+    border: 3px solid rgb(53, 177, 22);
+    padding: 80px 50px;
+    display: flex;
+    border: none;
+    background-color: hsl(30, 38%, 92%);
+    width: 50%
+}
+
+.fload-child{
+    /*width: 30%;
+    float: left;
+    */
+    background-color: hsl(0, 0%, 100%);
+    flex: 1;    
+}
+
+.img-container{
+  
+  
+}
+
+.text-container{
+    /*display: inline;
+    width: 100%;
+    padding: 2rem;*/
+    margin: 50px;
+    
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    background: hsl(158, 36%, 37%);
+    padding: 11px 40px 10px 40px;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+    padding: 16px;
+}
